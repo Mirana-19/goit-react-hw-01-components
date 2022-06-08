@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import s from './Stats.module.css';
 
 export default function Stats({ stats: { followers, views, likes } }) {
@@ -19,9 +18,3 @@ export default function Stats({ stats: { followers, views, likes } }) {
     </ul>
   );
 }
-
-Stats.propTypes = {
-  followers: PropTypes.number,
-  views: PropTypes.number,
-  likes: PropTypes.number,
-};
