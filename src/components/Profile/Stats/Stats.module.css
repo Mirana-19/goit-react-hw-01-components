@@ -1,0 +1,35 @@
+.stats {
+  display: flex;
+
+  margin: 10px 0 0 0;
+  padding: 0;
+  width: 200px;
+
+  list-style: none;
+  overflow: hidden;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: auto;
+  padding: 0;
+  height: 60px;
+  width: 100%;
+
+  background-color: #f5f5f5;
+  outline: 1px solid lightgrey;
+}
+
+.label {
+  color: gray;
+  font-size: small;
+}
+
+.quantity {
+  color: black;
+  font-weight: bold;
+  font-size: medium;
+}
