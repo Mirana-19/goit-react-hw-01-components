@@ -1,0 +1,15 @@
+.transactionHistory {
+  margin: 10px 0 10px 0;
+  border: solid 1px lightgray;
+  border-radius: 5px;
+  text-align: center;
+  background-color: lightskyblue;
+}
+
+.tableHead {
+  height: 70px;
+  width: 250px;
+  color: #fff;
+  border: solid 1px lightgray;
+  border-radius: 5px;
+}
