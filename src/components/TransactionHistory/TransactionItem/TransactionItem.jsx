@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import s from './TransactionItem.module.css';
 
 function TransactionItem({ type, amount, currency }) {
@@ -11,3 +12,10 @@ function TransactionItem({ type, amount, currency }) {
 }
 
 export default TransactionItem;
+
+TransactionItem.propTypes = PropTypes.exact({
+  id: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
+  amount: PropTypes.number.isRequired,
+  currency: PropTypes.string.isRequired,
+}).isRequired;

@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import s from './Stats.module.css';
 
 export default function Stats({ stats: { followers, views, likes } }) {
@@ -18,3 +19,9 @@ export default function Stats({ stats: { followers, views, likes } }) {
     </ul>
   );
 }
+
+Stats.propTypes = PropTypes.exact({
+  followers: PropTypes.number.isRequired,
+  views: PropTypes.number.isRequired,
+  likes: PropTypes.number.isRequired,
+}).isRequired;

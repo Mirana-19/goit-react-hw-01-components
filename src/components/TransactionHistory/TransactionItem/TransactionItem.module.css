@@ -2,5 +2,14 @@
   border: solid 1px lightgray;
   border-radius: 5px;
   color: gray;
-  background-color: #fff;
+}
+
+
+
+.row:nth-of-type(2n + 0) {
+  background-color: #dae2e8;
+}
+
+.row:nth-of-type(2n - 1) {
+  background-color: white;
 }

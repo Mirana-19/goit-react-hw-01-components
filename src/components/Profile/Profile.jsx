@@ -1,12 +1,11 @@
-import s from './Profile.module.css';
-import user from '../../data-json/user.json';
 import Name from './Name/Name';
+import user from '../../data-json/user.json';
 import Stats from './Stats/Stats';
+import s from './Profile.module.css';
 
 function Profile() {
   return (
     <div className={s.profile}>
-      {' '}
       <Name
         username={user.username}
         tag={user.tag}
